@@ -1,0 +1,77 @@
+p
+{
+background-color: blue;
+color: #66ccff;
+font-family: arial;
+font-size: 30pt;
+border: 2px solid white;
+border-radius: 8px;
+/*float: left;*/
+display: inline;
+
+}
+
+p.ship
+{
+  background-color: blue;
+  color: #66ccff;
+  font-family: arial;
+  font-size: 15pt;
+  border: 2px solid white;
+  border-radius: 8px;
+  display:inline-block;
+   padding: .2cm .5cm .5cm .2cm;
+   /*width: 500px;*/
+
+
+}
+
+p.buy
+{
+  background-color: #99ccff;
+  color: white;
+  font-family: times;
+  font-size: 14pt;
+  border: 2px solid white;
+  border-radius: 8px;
+  float: left;
+
+}
+
+
+p.headings
+{
+background-color:  #ddffcc;
+color: #004d00;
+font-size: 15pt;
+}
+
+a{
+  background-color: white;
+  color: #009933;
+}
+
+body
+{
+background-image: url("shark.jpg");
+background-size: 100%;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+
+a:hover
+{
+    color: #ff6666;
+}
+
+p.backend
+{
+background-color: blue;
+color: #66ccff;
+font-family: arial;
+font-size: 25pt;
+border: 5px solid white;
+border-radius: .01px;
+/*float: left;*/
+display: block;
+}

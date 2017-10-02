@@ -1,0 +1,48 @@
+
+<html>
+<head>
+
+ <link rel='stylesheet' type='text/css' href='webstore.css'/>
+
+
+<p>Welcome to the Beach Bum Shop!</p>
+
+  <title>My Webstore</title>
+
+
+<script type="text/javascript"
+    src="webstore.js">
+  </script>
+  </head>
+<br>
+  <p class="buy">
+  Items For Sale:
+  <br>
+  <img src="swimsuit.jpg" id="myImgId" width="300" height="300"><br>
+  Swim Suit - $50<br>
+  <img src="sunglasses.jpg" id="myImgId" width="300" height="300"><br>
+  Sunglasses - $20<br>
+  <img src="surfboard.jpg" id="myImgId" width="300" height="900"><br>
+  Surfboard - $100<br>
+</p>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+<form action="webstore.php" method="post" onsubmit="return validate()">
+<p class="ship">
+  Username: <input type="text" name="un" id="un">
+<br>
+  Password: <input type="password" name="pw" id="pw">
+  <br><br>
+  Number of Swimsuits: <input type="number" name="swim" id="swim" value=0>
+  <br>  Pairs of Sunglasses: <input type="number" name="glasses" id="glasses" value=0>
+    <br>  Number of Surfboards: <input type="number" name="surf" id="surf" value=0><br>
+      <br> Choose a Shipping Option:<br>
+       <input type="radio" checked="checked" name="shipping" value="7-Day"> 7 Day - Free <br>
+        <input type="radio" name="shipping" value="3-Day"> 3 Day - $5  <br>
+        <input type="radio" name="shipping" value="Overnight"> Overnight - $50 <br>
+        <input type="submit" value="Sumit Order"><input type="reset" value="Reset Order">
+
+</p>
+</html>
